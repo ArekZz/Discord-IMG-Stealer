@@ -19,7 +19,7 @@ client.on("ready", () => {
         try{
             if(message.channel.guild.id=="694869493582790676"){
                 if(message.content.toString().includes(".gif")){
-                    console.log("aha");
+                    
                     var name = message.content.split("/");
                     download(message.content,name[name.length-1],Math.floor(Math.random()*10000))
                 }
